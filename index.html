@@ -3,39 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой первый проект</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
 </head>
 
 <body>
-    <div class="wrapper"></div>
 
         <header class="header">
-            <div class="logo">
-                <h1>Фамилия <span>Имя Отчество</span></h1>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="data.html">Данные</a></li>
-                    <li><a href="study.html">Учеба</a></li>
-                    <li><a href="work.html">Работа</a></li>
-                </ul>
+            <div class="wrapper">
+                <div class="header-content">
+                    <div class="logo-content">
+                        <div class="logo">
+                            <a href="index.html"><h1>Фамилия <span>Имя Отчество</span></h1></a>
+                        </div>
+                        <div class="data">
+                            <p>телефон: <span>099-23-23-12</span></p>
+                            <p>e-mail: <span>domain@gmail.com</span></p>
+                        </div>
+                    </div>
 
-            </nav>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="data.html">Данные</a></li>
+                            <li><a href="study.html">Учеба</a></li>
+                            <li><a href="work.html">Работа</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
         </header>
 
         <main class="content">
-            <div class="info">
-                <div class="photo">
-                    <img src="img/photo.jpg" alt="image">
-                </div>
-                <div class="data">
-                    <p>телефон: <span>099-23-23-12</span></p>
-                    <p>e-mail: <span>domain@gmail.com</span></p>
+            <div class="wrapper">
+                <div class="info">
+                    <div class="photo">
+                        <img src="img/photo.jpg" alt="image">
+                    </div>
+                    <div class="about-me">
+                        <h3>Краткая биография</h3>
+                        <p></p>
+                    </div>
+
                 </div>
             </div>
         </main>
 
-        <footer class="footer">
-            <p>copyright 2018</p>
-        </footer>
+        <div class="wrapper">
+            <footer class="footer">
+                <p>copyright 2018</p>
+            </footer>
+        </div>
 </body>
 </html>
